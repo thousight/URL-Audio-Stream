@@ -3,10 +3,10 @@
 Automatically stream your audio file with URL
 
 ### Demo
-Live demo [here](https://facebook.github.io/react/) or
+Live demo [here](https://url-audio-stream.herokuapp.com/) or
 
 ```
-git clone http://github.com/thangngoc89/react-howler
+git clone https://github.com/thousight/URL-Audio-Stream.git
 npm install
 npm start
 ```
