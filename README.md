@@ -1,9 +1,9 @@
 # URL-Audio-Stream
 
-Automatically stream your audio file with URL
+Demo of automatic audio streamer through URL
 
 ### Demo
-Live demo [here](https://url-audio-stream.herokuapp.com/) (hosted in free heroku server, so expect delays at initial start) 
+Live demo [here](https://url-audio-stream.herokuapp.com/) (hosted in free heroku server, so expect delays at initial start)
 
 Or
 

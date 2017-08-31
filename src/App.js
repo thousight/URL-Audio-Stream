@@ -15,7 +15,20 @@ class App extends Component {
   }
 
   playMusic() {
-    this.setState({url: document.getElementById("url").value})
+    this.setState({url: this.urlCheck(document.getElementById("url").value)})
+  }
+
+  urlCheck(url) {
+    // Convert Google Drive sharing link to direct download link
+    if (url.includes('drive.google.com/file/d/')) { // if it is Google Drive Sharing URL
+      return `https://drive.google.com/uc?export=download&id=${
+        url.substring(
+          url.lastIndexOf("d/") + 2, url.lastIndexOf("/view?usp=sharing")
+        )
+      }`;
+    } else {
+      return url;
+    }
   }
 
   render() {
