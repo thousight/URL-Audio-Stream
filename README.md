@@ -1,5 +1,7 @@
 # URL-Audio-Stream
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/thousight/URL-Audio-Stream.svg)](https://greenkeeper.io/)
+
 Demo of automatic audio streamer through URL
 
 ### Demo
